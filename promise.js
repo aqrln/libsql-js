@@ -25,7 +25,7 @@ const {
   statementColumns,
   statementSafeIntegers,
   rowsNext,
-} = load(__dirname) || require(`@libsql/${currentTarget()}`);
+} = load(__dirname) || require(`@aqrln/libsql-test-fork-${currentTarget()}`);
 
 /**
  * Database represents a connection that can prepare and execute SQL statements.

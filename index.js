@@ -30,7 +30,7 @@ const {
   statementColumns,
   statementSafeIntegers,
   rowsNext,
-} = load(__dirname) || require(`@libsql/${target}`);
+} = load(__dirname) || require(`@aqrln/libsql-test-fork-${target}`);
 
 const SqliteError = require("./sqlite-error");
 

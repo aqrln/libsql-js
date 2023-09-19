@@ -1,5 +1,5 @@
 {
-  "name": "libsql",
+  "name": "@aqrln/libsql-test-fork",
   "version": "0.1.12",
   "description": "",
   "os": [
@@ -35,9 +35,9 @@
   "license": "MIT",
   "neon": {
     "targets": {
-      "aarch64-apple-darwin": "@libsql/darwin-arm64",
-      "x86_64-unknown-linux-gnu": "@libsql/linux-x64-gnu",
-      "x86_64-unknown-linux-musl": "@libsql/linux-x64-musl"
+      "aarch64-apple-darwin": "@aqrln/libsql-test-fork-darwin-arm64",
+      "x86_64-unknown-linux-gnu": "@aqrln/libsql-test-fork-linux-x64-gnu",
+      "x86_64-unknown-linux-musl": "@aqrln/libsql-test-fork-linux-x64-musl"
     }
   },
   "repository": {
@@ -59,7 +59,7 @@
     "detect-libc": "2.0.2"
   },
   "optionalDependencies": {
-    "@libsql/darwin-arm64": "0.0.1",
-    "@libsql/linux-x64-gnu": "0.0.1"
+    "@aqrln/libsql-test-fork-darwin-arm64": "0.0.1",
+    "@aqrln/libsql-test-fork-linux-x64-gnu": "0.0.1"
   }
 }
